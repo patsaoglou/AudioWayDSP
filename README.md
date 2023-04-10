@@ -19,10 +19,6 @@ Lastly, i did some measurements at my uni's electronics lab where they have sign
 # Firmware
 In the firmware folder i have posted the CubeIDE project with the basic configuration but i am planning to populated it with more projects that implement digital audio processing algorithms in the future!
 
-# Conclusion
-This is my first mixed signal project where i designed and manufactured a more advanced 4-Layer pcb board which turned out pretty nice and i really enjoyed doing the research choosing components and reading the datasheets before doing the actual development and manufacturing of the board.
-It was really fun and i am definatelly planning to do more projects like this in the future.
-
 # Big Thanks to:
 
 -- PhilsLab youtube channel which has a variety of content regarding these types of projects that i used as a reference and inspiration to build my own audio board
@@ -38,4 +34,8 @@ It was really fun and i am definatelly planning to do more projects like this in
 
 -- AIM65 Thread at diyAudio where he shared his digital preamp project featuring a I2S class d amp that interfaces with a STM32 mcu
 (https://www.diyaudio.com/community/threads/neatamp-pre-a-digital-preamp-for-neatamp.373698/)
+
+# Conclusion
+This is my first mixed signal project where i designed and manufactured a more advanced 4-Layer pcb board which turned out pretty nice and i really enjoyed doing the research choosing components and reading the datasheets before doing the actual development and manufacturing of the board.
+It was really fun and i am definatelly planning to do more projects like this in the future.
 
