@@ -1,5 +1,5 @@
 # AudioWayDSP
-This repository is dedicated for the AudioWayDSP PCB Project. In this repository you are going to find the schematic of the board, a pcb Report document, a folder with the datasheets of the components i used with some notes i did that help me and were important for the development of the project and folder where i am going to upload custom firmware CubeIDE projects for the STM32 mcu.
+This repository is dedicated for the AudioWayDSP PCB Project. In this repository you are going to find the schematic of the board, a pcb Report document, a folder with the datasheets of the components i used with some notes i did that help me and were important for the development of the project and folder where i am going to upload custom firmware CubeIDE projects for the STM32 mcu. I made this audio development board because i wanted to interface my audio projects like headphone/audio amplifiers and mic amplifier with the digital domain.
 
 ![20230408_124634](https://user-images.githubusercontent.com/93339707/230942115-1fff1c84-43ac-4412-8835-438c6a74595b.jpg)
 
@@ -40,7 +40,7 @@ In the firmware folder i have posted the CubeIDE project with the basic configur
 
 -- Hackaday stm32 microphone project: https://hackaday.io/project/181868-stm32f4-usb-microphone/details
 
--- Andybrown'sstm32 microphone project: https://andybrown.me.uk/2021/03/13/usb-microphone/
+-- Andybrown's stm32 microphone project: https://andybrown.me.uk/2021/03/13/usb-microphone/
 
 -- AIM65 Thread at diyAudio where he shared his digital preamp project featuring a I2S class d amp that interfaces with a STM32 mcu
 (https://www.diyaudio.com/community/threads/neatamp-pre-a-digital-preamp-for-neatamp.373698/)
@@ -49,3 +49,18 @@ In the firmware folder i have posted the CubeIDE project with the basic configur
 This is my first mixed signal project where i designed and manufactured a more advanced 4-Layer pcb board which turned out pretty nice and i really enjoyed doing the research choosing components and reading the datasheets before doing the actual development and manufacturing of the board.
 It was really fun and i am definatelly planning to do more projects like this in the future.
 
+# Pinout
+--MCU Pinout
+![MCU PINOUT](https://user-images.githubusercontent.com/93339707/230944513-bfe624c0-bfe5-44ff-8c89-22491e554c47.PNG)
+
+--Debug header Pinout
+![DEBUG header](https://user-images.githubusercontent.com/93339707/230945974-e8dcfcb8-5ed8-495e-92a9-f326ddc6ac51.PNG)
+
+--3 Line in headers
+![line in](https://user-images.githubusercontent.com/93339707/230945746-c7af9072-e3cb-43c2-8e83-2a5a8cb9e061.PNG)
+
+--Line out, I2C and spi header
+![LINE OUT  I2C, SPI HEADER](https://user-images.githubusercontent.com/93339707/230945920-65fcbfe2-8aab-4b61-b26a-9ff0fc354be4.PNG)
+
+--One of the 3 adc headers
+![adc](https://user-images.githubusercontent.com/93339707/230946078-22a31f2c-8d24-4fea-8bc6-e8daab094685.PNG)
