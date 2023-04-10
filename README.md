@@ -24,13 +24,18 @@ This is my first mixed signal project where i designed and manufactured a more a
 It was really fun and i am definatelly planning to do more projects like this in the future.
 
 #Big Thanks to:
+
 -- PhilsLab youtube channel which has a variety of content regarding these types of projects that i used as a reference and inspiration to build my own audio board
 (https://www.youtube.com/@PhilsLab)
 
 -- Netrona's Audio DSP project repository: https://github.com/Netrona/STM32F_Audio_Codec_pcb
+
 -- har-in-air's repo that shares a stm32 i2s configuration that was helpful: https://github.com/har-in-air/STM32F411_USB_AUDIO_DAC
+
 -- Hackaday stm32 microphone project: https://hackaday.io/project/181868-stm32f4-usb-microphone/details
+
 -- Andybrown'sstm32 microphone project: https://andybrown.me.uk/2021/03/13/usb-microphone/
+
 -- AIM65 Thread at diyAudio where he shared his digital preamp project featuring a I2S class d amp that interfaces with a STM32 mcu
 (https://www.diyaudio.com/community/threads/neatamp-pre-a-digital-preamp-for-neatamp.373698/)
 
