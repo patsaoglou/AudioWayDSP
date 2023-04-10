@@ -51,12 +51,15 @@ It was really fun and i am definatelly planning to do more projects like this in
 
 # Pinout
 --MCU Pinout
+
 ![MCU PINOUT](https://user-images.githubusercontent.com/93339707/230944513-bfe624c0-bfe5-44ff-8c89-22491e554c47.PNG)
 
 --Debug header Pinout
+
 ![DEBUG header](https://user-images.githubusercontent.com/93339707/230945974-e8dcfcb8-5ed8-495e-92a9-f326ddc6ac51.PNG)
 
 --3 Line in headers
+
 ![line in](https://user-images.githubusercontent.com/93339707/230945746-c7af9072-e3cb-43c2-8e83-2a5a8cb9e061.PNG)
 
 --Line out, I2C and spi header
