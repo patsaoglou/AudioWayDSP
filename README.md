@@ -60,7 +60,9 @@ It was really fun and i am definatelly planning to do more projects like this in
 ![line in](https://user-images.githubusercontent.com/93339707/230945746-c7af9072-e3cb-43c2-8e83-2a5a8cb9e061.PNG)
 
 --Line out, I2C and spi header
+
 ![LINE OUT  I2C, SPI HEADER](https://user-images.githubusercontent.com/93339707/230945920-65fcbfe2-8aab-4b61-b26a-9ff0fc354be4.PNG)
 
 --One of the 3 adc headers
+
 ![adc](https://user-images.githubusercontent.com/93339707/230946078-22a31f2c-8d24-4fea-8bc6-e8daab094685.PNG)
