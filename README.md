@@ -24,7 +24,10 @@ The audio output had a little bit of a high noise floor and when the input was l
 
 ![20230408_124101](https://user-images.githubusercontent.com/93339707/230942370-556aad7b-2244-40bd-bb3a-6abcd4377a5a.jpg)
 
-Lastly, i did some measurements at my uni's electronics lab where they have signal generators and higher bandwith digital osciloscopes so i could check the quality of the output signal. I tweaked the data format from I2S_DATAFORMAT_16B to I2S_DATAFORMAT_16B_Extended and changed the codecs data length register to 24bit as it seemed that i had better quality sinewave output. As of the frequency responce of the system in that simple configuration, i had flat response across the audio band(20-20khz).
+Additionally, i did some measurements at my uni's electronics lab where they have signal generators and higher bandwith digital osciloscopes so i could check the quality of the output signal. I tweaked the data format from I2S_DATAFORMAT_16B to I2S_DATAFORMAT_16B_Extended and changed the codecs data length register to 24bit as it seemed that i had better quality sinewave output. As of the frequency responce of the system in that simple configuration, i had flat response across the audio band(20-20khz).
+
+Finally, i did some last measurements with a low-pass filter with a cutoff frequency @33khz to limit the noise coming from the dac output of the codec and i have a nice and clean audio signal with less than 5mv of noise!
+![346106683_938365657493886_9105701429267784199_n](https://github.com/patsaoglou/AudioWayDSP/assets/93339707/6a3378d7-7310-44b6-b46f-10d96741ac2b)
 
 # Firmware
 In the firmware folder i have posted the CubeIDE project with the basic configuration but i am planning to populated it with more projects that implement digital audio processing algorithms in the future!
