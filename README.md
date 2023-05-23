@@ -12,7 +12,7 @@ As for the board IO, i have added a debug header that has SWD and UART pins for 
 
 ![20230408_123720](https://user-images.githubusercontent.com/93339707/230942542-c760dc08-2def-4060-b035-fbc0476e106d.jpg)
 
-# Basic Firmware Comfiguration
+# Basic Firmware Configuration
 To initialize the system, HAL_I2C interface is used by the mcu to communicate with the codec and write specified values to specified configuration registers using the HAL_I2C_Mem_Write function to reset, enable and configure the codec's system blocks. The codec's datasheet provides basic initialization examples with the all important register addresses that you have to configure but also a Register Map with all the register addresses and their respective values.
 
 # IS2 Data Streams
