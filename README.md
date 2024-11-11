@@ -72,3 +72,9 @@ It was really fun and i am definatelly planning to do more projects like this in
 --One of the 3 adc headers
 
 ![adc](https://user-images.githubusercontent.com/93339707/230946078-22a31f2c-8d24-4fea-8bc6-e8daab094685.PNG)
+
+## Disclaimer
+This repository includes notes on datasheets that are the property of the respective manufacturers. These datasheets are referenced here solely for informational purposes, and all copyright remains with their original owners. 
+
+## License
+This project is licensed under the MIT License.
